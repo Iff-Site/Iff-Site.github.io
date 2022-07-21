@@ -59,7 +59,19 @@
       }
     </script>
   </head>
-  
   <body>
-  Placeholder - Website Coming Soon... Iff_ I can find out when your new EP drops!
+    <video playsinline autoplay muted loop poster="https://finleygomezafr.github.io/videos/video.jpg" id="bgvid">
+      <source src="https://finleygomezafr.github.io/videos/video.webm" type="video/webm">
+      <source src="https://finleyGomezAFR.github.io/videos/video.mp4" type="video/mp4">
+    </video>
+    <!--script>
+      var vid = document.getElementById("bgvid"),
+        pauseButton = document.getElementById("vidpause");
+      if (window.matchMedia('(prefers-reduced-motion)').matches) {
+        vid.removeAttribute("autoplay");
+        vid.pause();
+        pauseButton.innerHTML = "Paused";
+      }
+    </script-->
   </body>
+  </html>
